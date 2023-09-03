@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Ashutosh Manwatkar</title>
+
+   <!-- -------------------------CSS linking------------------------- -->
+   <link rel="stylesheet" href="portfolio.css">
+
+   <!-- -------------------------boxicon linking------------------------- -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   <!-- -------------------------typejs animation linking ------------------------- -->
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>     
+</head>
+
+<body>
+   <!----------------------- Header section ------------------------->
+   <header class="header">
+      <div class="logo"><a href="#home"><img src="images/logo.png" alt=""></a></div>
+      <div class="navbar">
+         <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </div>
+      <a href="https://github.com/ashutoshmanwatkar" target="_blank"><button class="github">Github</button></a>
+      <div class="bx bx-menu"></div>
+   </header>
+
+
+   <!------------------------- Home section --------------------------->
+   <section class="home" id="home">
+      <div class="detail-container">
+         <h1>Hello, My name is</h1>
+         <div class="name"><strong>Ashutosh Manwatkar</strong></div>
+         <div class="changeText">
+            <h2>And I'm a </h2>
+            <h2>
+               <span id="element"></span>
+            </h2>
+         </div>
+         <!--------------------------- social icons --------------------------->
+         <div class="icon">
+            <a href="https://twitter.com/ashu_manwatkar?t=51qacLf-3qAzlZD37SOR4A&s=08" target="_blank"><i
+                  class="bx bxl-twitter"></i></a>
+            <a href="https://instagram.com/_a_s_h_u_3in1?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i
+                  class="bx bxl-instagram"></i></a>
+            <a href="whatsapp://send?text=Hi there!&phone=+918827111419" target="_blank"><i
+                  class="bx bxl-whatsapp"></i></a>
+            <a href="mailto:ashumanwatkar4@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+            <a href="https://www.linkedin.com/in/ashutosh-manwatkar-865b74225/" target="_blank"><i
+                  class='bx bxl-linkedin-square'></i></a>
+         </div>
+         <!--------------------------- button box --------------------------->
+         <div class="btn-box">
+            <a href="Resume.zip" download><button class="btn">Download resume</button></a>
+            <a href="mailto:ashumanwatkar4@gmail.com"><button class="btn">Hire Me Now</button></a>
+         </div>
+      </div>
+      <div class="img-container">
+         <img src="images/Main_img-removebg-preview1.png" alt="">
+      </div>
+   </section>
+
+
+   <!--------------------------- About section --------------------------->
+   <section class="about" id="about">
+      <div class="img-container">
+         <img src="images/IMG-20230727-WA0142-removebg-preview.png" alt="">
+      </div>
+      <div class="detail">
+         <h1>About Me !!</h1>
+         <p>Highly motivated Electrical Engineering student with a strong foundation in core principles and software
+            field, and a passion for innovation. Seeking opportunities to apply my skills and gain practical experience
+            in the fields of web development, software development, electrical engineering, UAV and Drone technology and
+            embedded systems.</p>
+
+         <div class="tab">
+            <p class="tab-menus active-link" onclick="opentab(event, 'skills')">Skills</p>
+            <p class="tab-menus" onclick="opentab(event, 'experience')">Experience</p>
+            <p class="tab-menus" onclick="opentab(event, 'education')">Education</p>
+         </div>            
+         <div class="profile-contents active-tab" id="skills">
+            <ul>
+               <li><span>Programming</span> : C and C++, DSA & Algorithm <br> Sofware - VS Code, CodeBlocks, Notepad++
+               </li>
+               <li><span>Web Development</span> : HTML5, CSS, JAVASCRIPT, Responsive design, UI/UX</li>
+               <li><span>Electrical & Electronics</span> : Circuit analysis, Electrical Machines, Arduino Programming,
+                  Digital Electronics <br> Tools & Software : Fritzing, Proteus, TinkerCAD</li>
+               <li><span>UAV & Drone technology</span> : Aviation Electronics, RC flying, Propulsion Design</li>
+            </ul>
+         </div>
+         <div class="profile-contents" id="experience">
+            <ul>
+               <li><span>Aug-2023 to Present</span><br>Web Developer Intern at CODSOFT, Kolkata, WB</li>
+               <li><span>Dec-2021 to Present</span><br>Technical Team Member, Avionics & Propulsion Dept. at YAN
+                  SAEINDIA SGSITS, Indore</li>
+            </ul>
+         </div>
+         <div class="profile-contents" id="education">
+            <ul>
+               <li><span>Oct-2021 to Expected 2025</span> <br> BTECH. Electrical Engineering, SGSITS, Indore <br> MMVY
+                  (MukhyaMantri Medhavi Chhatra Yojna) Scholarship Recipient</li>
+               <li><span>Apr-2018 to Mar-2020</span>  <br> Higher Sec School, Jawahar Navodaya Vidyalaya, Manpur, MP
+                  <br>Completed coursework in PCM and Computer Science, scored 93.8%.</li>
+            </ul>
+         </div>
+   </section>
+
+
+   <!--------------------------- Services section --------------------------->
+   <section class="services" id="services">
+      <h1 class="section-heading">My <span class="headSpan">Services</span></h1>
+      <div class="service-container">
+         <div class="services">
+            <img src="images/3426526.jpg" alt="">
+            <div class="detail">
+               <h2>Web Development</h2>
+               <p>We offer comprehensive web development services, crafting visually appealing and highly functional websites. Our expertise covers front-end design and custom web solutions. We also provide ongoing maintenance and support to keep your online presence in top shape.</p>
+               <a href="mailto:ashumanwatkar4@gmail.com"><button class="btn">Consult</button></a>
+            </div>
+         </div>
+         <div class="services">
+            <img src="images/3236173.jpg" alt="">
+            <div class="detail">
+               <h2>Embedded Systems</h2>
+               <p>Our embedded systems services encompass the design, programming, and optimization of microcontroller-based devices. We specialize in hardware design, microcontroller programming, and ensuring reliable and efficient solutions. We provide testing, debugging, consulting, and training to meet your embedded system needs.</p>
+               <a href="mailto:ashumanwatkar4@gmail.com"><button class="btn">Consult</button></a>
+            </div>
+         </div>
+         <div class="services">
+            <img src="images/8393762.jpg" alt="">
+            <div class="detail">
+               <h2>Aeromodelling</h2>
+               <p>Explore the world of aeromodelling with our services. We excel in designing and building custom model aircraft, ensuring precision and performance. Whether you're interested in hobbyist aeromodelling or require custom model aircraft for specialized applications, we have the expertise to meet your needs.</p>
+               <a href="mailto:ashumanwatkar4@gmail.com"><button class="btn">Consult</button></a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!--------------------------- Projects section --------------------------->
+   <section class="projects" id="projects">
+      <h1 class="section-heading">Latest <span class="headSpan">Projects</span></h1>
+
+      <div class="projects-container">
+         <div class="projects-box">
+            <img src="images/ZWIGAATO.jpg" alt="">
+            <div class="projects-layer">
+               <h4>IceCream Parlour Website</h4>
+               <p>Developed an engaging Ice Cream Parlour Landing Page using HTML, CSS, and JavaScript. The page
+                  features an intuitive user interface, vibrant visual elements, and smooth animations, providing an
+                  enticing virtual experience.</p>
+               <a href="https://github.com/ashutoshmanwatkar/CODSOFT_TASK1_LandingPage" target="_blank"><i
+                     class='bx bx-file'></i></a>
+            </div>
+         </div>
+         <div class="projects-box">
+            <img src="images/FROZEN_EUPHORIA.jpg" alt="">
+            <div class="projects-layer">
+               <h4>Zwigato: Food Website</h4>
+               <p>Developed "Zwigato," a front-end project for a food service website using core HTML, CSS, and
+                  Javascript concepts. Applied media queries and responsive design principles for a seamless display
+                  across various devices.</p>
+               <a href="#" target="_blank"><i class='bx bx-file'></i></a>
+            </div>
+         </div>
+         <div class="projects-box">
+            <img src="images/AirDefenceSystem.png" alt="">
+            <div class="projects-layer">
+               <h4>Air Defence System</h4>
+               <p>project1 description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto, est ipsam
+                  animi earum ut amet quae beatae obcaecati, tempora cum. Autem vitae, ad eveniet.</p>
+               <a href="#" target="_blank"><i class='bx bx-file'></i></a>
+            </div>
+         </div>
+         <div class="projects-box">
+            <img src="images/UAV-Aircraft.jpg" alt="">
+            <div class="projects-layer">
+               <h4>UAV Aircraft</h4>
+               <p>Collaborated with a multidisciplinary team to develop and test UAV aircraft with 250% payload
+                  capacity. Led a team focused on enhancing avionics subsystems, including propulsion and avionics
+                  performance.</p>
+               <a href="https://drive.google.com/file/d/1vW8Otb__1HU5V0KBI7WpX30vvBHaJ__x/view?usp=sharing"
+                  target="_blank"><i class='bx bx-file'></i></a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+<!-- ------------------------- contact section ------------------------- -->
+   <section class="contact" id="contact">
+      <h1 class="section-heading">Contact <span class="headSpan">Me</span></h1>
+
+      <form name="submit-to-google-sheet">
+         <div class="input-box">
+            <input type="text" name="FullName" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+         </div>
+         <div class="input-box">
+            <input type="text" name="PhoneNumber" placeholder="Your Number" required>
+            <input type="text" name="Emailsubject" placeholder="Email Subject">
+         </div>
+         <textarea id="" cols="30" rows="10" name="Message" placeholder="Write message here"></textarea>
+         <input type="submit" value="Send Message" class="btn"><br>
+         <span id="msg"></span>
+      </form>
+   </section>
+
+<!-- ------------------------- footer ------------------------- -->
+   <footer class="footer">
+      <div class="footer-text">
+         <p>Copyright &copy; 2023 by Ashutosh Manwatkar | All Rights Reserved.</p>
+      </div>
+      <div class="icon">
+         <a href="https://twitter.com/ashu_manwatkar?t=51qacLf-3qAzlZD37SOR4A&s=08" target="_blank"><i
+               class="bx bxl-twitter"></i></a>
+         <a href="https://instagram.com/_a_s_h_u_3in1?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i
+               class="bx bxl-instagram"></i></a>
+         <a href="whatsapp://send?text=Hi there!&phone=+918827111419" target="_blank"><i
+               class="bx bxl-whatsapp"></i></a>
+         <a href="mailto:ashumanwatkar4@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+         <a href="https://www.linkedin.com/in/ashutosh-manwatkar-865b74225/" target="_blank"><i
+               class='bx bxl-linkedin-square'></i></i></i></a>
+      </div>
+   </footer>
+
+
+<!-- ------------------------- linking JavaScript ------------------------- -->
+   <script src="portfolio.js"></script>
+</body>
+
+</html>
